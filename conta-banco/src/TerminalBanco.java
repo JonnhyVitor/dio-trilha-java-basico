@@ -9,7 +9,7 @@ public class TerminalBanco {
         String agencias="666-6";
         String nomedoCliente="joao";
         double saldoBancario=1500;
-        
+        //adiconado Scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
          System.out.println("digite o numero da sua conta");
@@ -21,7 +21,7 @@ public class TerminalBanco {
          System.out.println("digite seu nome");
          String nomeCliente=scanner.next();
 
-    
+         //exibindo imformaçoes da conta 
 
          System.out.println("ola,"+nomeCliente);
          System.out.println("Obrigado por cria sua conta com a gente");
